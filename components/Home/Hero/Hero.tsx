@@ -3,10 +3,10 @@ import Link from "next/link";
 import React from "react";
 
 
-// high yellow - #94b4bc
+// high yellow - #50bebc
 // mid - #fedc80
 // light-white yellow - #fff8e6
-// swap colors #94b4bc to #94b4bc
+// swap colors #50bebc to #50bebc
 
 
 
@@ -27,11 +27,11 @@ const Hero = () => {
         <div className="px-6 py-10">
           <h2 className="text-neutral-700 lg:text-3xl text-2xl not-italic font-medium lg:leading-9 leading-8 tracking-[-0.75px] lg:w-[400px]">
           Lose weight with GLP-1 medication.{" "} 
-            <span className="text-[#94b4bc] italic">
+            <span className="text-[#50bebc] italic">
               DONE RIGHT!
             </span>{" "}
           </h2>
-          <p className="text-sm text-[#94b4bc] font-medium lg:w-[350px] mt-4">
+          <p className="text-sm text-[#50bebc] font-medium lg:w-[350px] mt-4">
           GLP-1 medications in combination with patient care plans and lifestyle changes are the most effective for weight loss.
           </p>
           <div className="mt-6">
@@ -40,7 +40,7 @@ const Hero = () => {
               target="_blank"
             >
               {" "}
-              <button className="flex items-center gap-3 px-6 py-3 rounded-lg bg-[#94b4bc]">
+              <button className="flex items-center gap-3 px-6 py-3 rounded-lg bg-[#50bebc]">
                 <span className="uppercase text-white text-lg">
                   See if I qualify
                 </span>

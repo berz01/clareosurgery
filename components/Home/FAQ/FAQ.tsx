@@ -106,16 +106,16 @@ const FAQ = () => {
     },
   ];
 
-  // high yellow - #94b4bc
+  // high yellow - #50bebc
   // mid - #fedc80
   // light-white yellow - #fff8e6
-  // #94b4bc - dark green Advancing
+  // #50bebc - dark green Advancing
 
   return (
     <div
       style={{
         background:
-          "linear-gradient(180deg, #94b4bc 0%, #4E7DA0 50%, #4E7DA0 100%)",
+          "linear-gradient(180deg, #50bebc 0%, #4E7DA0 50%, #4E7DA0 100%)",
       }}
       className="lg:pt-[96px] pt-[70px] lg:pb-[160px] pb-[70px] rounded shadow-2xl -mt-[3px]"
     >
@@ -136,7 +136,7 @@ const FAQ = () => {
               href="https://carevalidate.jotform.com/240097087026961"
               target="_blank"
             >
-              <button className="w-full bg-[#94b4bc] rounded-lg py-3 flex items-center gap-2 justify-center">
+              <button className="w-full bg-[#50bebc] rounded-lg py-3 flex items-center gap-2 justify-center">
                 <span className="text-white text-lg">See if I qualify</span>
                 <Image
                   width={28}
